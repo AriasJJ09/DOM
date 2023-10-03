@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("fondo.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#formularioContainer {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con opacidad */
+    width: 80%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario en la página */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el formulario */
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-top: 10px;   
+}
+
+ input[type="text"] {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="color"] {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #e2930a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button[type="submit"]:hover {
+            background-color: #ba7805;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+      
+        section {
+            margin-top: 20px;
+        }
